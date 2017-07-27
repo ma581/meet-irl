@@ -1,24 +1,22 @@
-/**
- * Created by tp50808 on 27/07/2017.
- */
 module.exports = function(config) {
     config.set({
         basePath: '',
         frameworks: ['jasmine'],
         files: [
-            './node_modules/angular/angular.js',                             // angular
-            './node_modules/angular-ui-router/release/angular-ui-router.js', // ui-router
-            './node_modules/angular-mocks/angular-mocks.js',                 // loads our modules for tests
-            './app/services/users/users.js',                                 // our Users factory
-            './app/app.js',                                                  // our angular app
-            './app/services/users/users.spec.js'                             // our test file for our Users factory
-
+            './node_modules/angular/angular.js',
+            './node_modules/angular-ui-router/release/angular-ui-router.js',
+            './node_modules/angular-mocks/angular-mocks.js',
+            './app/services/users/users.js',
+            './app/components/users/users.js',
+            './app/app.js',
+            './app/services/users/users.spec.js',
+            './app/components/users/users.spec.js'
         ],
         exclude: [
         ],
         preprocessors: {
         },
-        reporters: ['progress'],
+        reporters: ['spec'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
@@ -27,4 +25,4 @@ module.exports = function(config) {
         singleRun: false,
         concurrency: Infinity
     })
-}
+};
