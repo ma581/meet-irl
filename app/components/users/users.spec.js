@@ -16,7 +16,6 @@ describe('UsersController', () => {
 
         UsersController = $controller('UsersController', {Users: UsersFactory});
 
-
     }));
 
     const userList = [
