@@ -37,9 +37,15 @@
                 }
             ];
 
-            Users.all = ()=>{return usersList};
+            Users.all = () => {
+                return usersList
+            };
 
-            Users.findById = id => {};
+            Users.findById = id => {
+                return usersList.find((user) => {
+                    return user.id === id;
+                });
+            };
 
             return Users;
         });
