@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6134ecf-9682-4894-b222-5ad5fa54c5d9" name="Default" comment="users test">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/meet-irl.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+    <list default="true" id="d6134ecf-9682-4894-b222-5ad5fa54c5d9" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -629,7 +625,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501153159240</updated>
-      <workItem from="1501153160530" duration="8728000" />
+      <workItem from="1501153160530" duration="8734000" />
     </task>
     <task id="LOCAL-00001" summary="users test">
       <created>1501160565593</created>
@@ -659,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501164017215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="users test">
+      <created>1501164029065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501164029065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8728000" />
+    <option name="totallyTimeSpent" value="8734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1720" height="1440" extended-state="0" />
@@ -706,10 +709,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="users test" />
     <MESSAGE value="users find by id" />
     <MESSAGE value="find users by id" />
-    <option name="LAST_COMMIT_MESSAGE" value="find users by id" />
+    <MESSAGE value="users test" />
+    <option name="LAST_COMMIT_MESSAGE" value="users test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
