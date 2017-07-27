@@ -10,7 +10,9 @@ module.exports = function(config) {
             './app/components/users/users.js',
             './app/app.js',
             './app/services/users/users.spec.js',
-            './app/components/users/users.spec.js'
+            './app/components/users/users.spec.js',
+            './app/services/pokemon/pokemon.js',
+            './app/services/pokemon/pokemon.spec.js'
         ],
         exclude: [
         ],
